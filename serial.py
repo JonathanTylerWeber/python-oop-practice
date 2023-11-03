@@ -38,3 +38,6 @@ class SerialGenerator:
         reset current value
         """
         self.current_val = 100
+
+    def __repr__(self):
+        return f'Serial Generator start=100 next={self.current_val}'
